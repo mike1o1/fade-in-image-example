@@ -13,6 +13,13 @@ module.exports = function(environment) {
       }
     },
 
+    contentSecurityPolicy: {
+
+      'default-src': "'none'",
+      'img-src': "'self' data: * https://placehold.it",
+      'media-src': "'self'"
+    },
+
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created

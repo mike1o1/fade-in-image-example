@@ -13,5 +13,10 @@
   bottom: 0;
   left: 0;
   background-color: #efefef;
-  
+  background-image: url('http://placehold.it/250?text=Placeholder');
+}
+
+.fade-in-image #fade-in-image-placeholder.fade-in {
+  opacity: 0;
+  transition: opacity 1.5s linear;
 }
