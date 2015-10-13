@@ -1,8 +1,8 @@
 # Fade-in-image-example
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is a quick example of how to create a `{{fade-in-image}}` component in Ember.
 
+Please see the corresponding blog post [here](http://mike1234.com/2015/10/12/fade-in-image-components-with-ember/).
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
