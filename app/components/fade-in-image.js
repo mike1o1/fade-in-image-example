@@ -21,13 +21,8 @@ export default Ember.Component.extend({
       // Image is loaded, so let's set our background-image and fade class
       this.$('#fade-in-image-placeholder').addClass(this.get('fadeInClass'));
       this.$().css('background-image', `url(${this.get('sourceImage')})`);
-
     };
 
     img.src = this.get('sourceImage');
-
-
   }
-
-
 });
